@@ -21,13 +21,14 @@ export function SliderItem({ continent }: SliderItemProps) {
       bgImage={`url('${continent.cover}')`}
     >
       <Link href={`/continent/${continent.id}`} passHref>
-        <ChakraLink>
+        <ChakraLink href={`/continent/${continent.id}`} textDecoration="none">
           <VStack spacing={4}>
             <Heading
               color="gray.50"
               _hover={{ color: "yellow.500" }}
               fontSize="3rem"
               fontWeight="bold"
+              textDecoration="none"
             >
               {continent.name}
             </Heading>

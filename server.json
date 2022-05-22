@@ -9,6 +9,7 @@
       "quantity_country": 50,
       "quantity_languages": 60,
       "cover": "/images/continents/europa/cover.png",
+      "banner": "/images/continents/europa/banner.png",
       "cities": [
         {
           "id": "london",
@@ -224,6 +225,7 @@
       "quantity_country": 35,
       "quantity_languages": 8,
       "cover": "/images/continents/america/cover.png",
+      "banner": "/images/continents/america/banner.png",
       "cities": [
         {
           "id": "new_york",
