@@ -1,0 +1,322 @@
+{
+  "continents": [
+    {
+      "id": 1,
+      "slug": "europe",
+      "name": "Europa",
+      "description_short": "O continente mais antigo",
+      "description_long": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "quantity_country": 50,
+      "quantity_languages": 60,
+      "cover": "/images/continents/europa/cover.png",
+      "cities": [
+        {
+          "id": "london",
+          "name": "Londres",
+          "image": "/images/continents/europa/london.png",
+          "country": "Reino Unido",
+          "code": "gb"
+        },
+        {
+          "id": "paris",
+          "name": "Paris",
+          "image": "/images/continents/europa/paris.png",
+          "country": "França",
+          "code": "fr"
+        },
+        {
+          "id": "roma",
+          "name": "Roma",
+          "image": "/images/continents/europa/roma.png",
+          "country": "Itália",
+          "code": "it"
+        },
+        {
+          "id": "praga",
+          "name": "Praga",
+          "image": "/images/continents/europa/praga.png",
+          "country": "República Tcheca",
+          "code": "cz"
+        },
+        {
+          "id": "amsterdam",
+          "name": "Amsterdã",
+          "image": "/images/continents/europa/amsterdam.png",
+          "country": "Holanda",
+          "code": "nl"
+        },
+        {
+          "id": "barcelona",
+          "name": "Barcelona",
+          "image": "/images/continents/europa/barcelona.png",
+          "country": "Espanha",
+          "code": "es"
+        },
+        {
+          "id": "milan",
+          "name": "Milão",
+          "image": "/images/continents/europa/milan.png",
+          "country": "Itália",
+          "code": "it"
+        },
+        {
+          "id": "vienna",
+          "name": "Viena",
+          "image": "/images/continents/europa/vienna.png",
+          "country": "Austria",
+          "code": "at"
+        },
+        {
+          "id": "berlin",
+          "name": "Berlin",
+          "image": "/images/continents/europa/berlin.png",
+          "country": "Alemanha",
+          "code": "de"
+        },
+        {
+          "id": "athens",
+          "name": "Atenas",
+          "image": "/images/continents/europa/athens.png",
+          "country": "Grécia",
+          "code": "gr"
+        },
+        {
+          "id": "moscow",
+          "name": "Moscou",
+          "image": "/images/continents/europa/moscow.png",
+          "country": "Rússia",
+          "code": "ru"
+        },
+        {
+          "id": "venice",
+          "name": "Veneza",
+          "image": "/images/continents/europa/venice.png",
+          "country": "Itália",
+          "code": "it"
+        },
+        {
+          "id": "madrid",
+          "name": "Madri",
+          "image": "/images/continents/europa/madrid.png",
+          "country": "Espanha",
+          "code": "es"
+        },
+        {
+          "id": "dublin",
+          "name": "Dublin",
+          "image": "/images/continents/europa/dublin.png",
+          "country": "Irlanda",
+          "code": "ie"
+        },
+        {
+          "id": "florence",
+          "name": "Florença",
+          "image": "/images/continents/europa/florence.png",
+          "country": "Itália",
+          "code": "it"
+        },
+        {
+          "id": "munich",
+          "name": "Munique",
+          "image": "/images/continents/europa/munich.png",
+          "country": "Alemanha",
+          "code": "de"
+        },
+        {
+          "id": "saint_petersburg",
+          "name": "São Petersburgo",
+          "image": "/images/continents/europa/saint_petersburg.png",
+          "country": "Rússia",
+          "code": "ru"
+        },
+        {
+          "id": "brussels",
+          "name": "Bruxelas",
+          "image": "/images/continents/europa/brussels.png",
+          "country": "Bélgica",
+          "code": "be"
+        },
+        {
+          "id": "budapest",
+          "name": "Budapeste",
+          "image": "/images/continents/europa/budapest.png",
+          "country": "Hungria",
+          "code": "hu"
+        },
+        {
+          "id": "lisbon",
+          "name": "Lisboa",
+          "image": "/images/continents/europa/lisbon.png",
+          "country": "Portugal",
+          "code": "pt"
+        },
+        {
+          "id": "heraklion",
+          "name": "Iráklio",
+          "image": "/images/continents/europa/heraklion.png",
+          "country": "Grécia",
+          "code": "gr"
+        },
+        {
+          "id": "copenhagen",
+          "name": "Copenhage",
+          "image": "/images/continents/europa/copenhagen.png",
+          "country": "Dinamarca",
+          "code": "dk"
+        },
+        {
+          "id": "krakow",
+          "name": "Cracóvia",
+          "image": "/images/continents/europa/krakow.png",
+          "country": "Polônia",
+          "code": "pl"
+        },
+        {
+          "id": "warsaw",
+          "name": "Varsóvia",
+          "image": "/images/continents/europa/warsaw.png",
+          "country": "Polônia",
+          "code": "pl"
+        },
+        {
+          "id": "frankfurt",
+          "name": "Frankfurt",
+          "image": "/images/continents/europa/frankfurt.png",
+          "country": "Alemanha",
+          "code": "de"
+        },
+        {
+          "id": "stockholm",
+          "name": "Estocolmo",
+          "image": "/images/continents/europa/stockholm.png",
+          "country": "Suécia",
+          "code": "se"
+        },
+        {
+          "id": "nice",
+          "name": "Nice",
+          "image": "/images/continents/europa/nice.png",
+          "country": "França",
+          "code": "fr"
+        },
+        {
+          "id": "porto",
+          "name": "Porto",
+          "image": "/images/continents/europa/porto.png",
+          "country": "Portugal",
+          "code": "pt"
+        },
+        {
+          "id": "rhodes",
+          "name": "Rodes",
+          "image": "/images/continents/europa/rhodes.png",
+          "country": "Grécia",
+          "code": "gr"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "america",
+      "name": "América",
+      "description_short": "O novo continente",
+      "description_long": "América é o continente localizado no hemisfério ocidental e que se estende, no sentido norte-sul, desde o oceano Ártico até o cabo Horn, ao longo de cerca de 15 mil quilômetros. O seu extremo oriental insular (não continental) encontra-se na Groenlândia, o Nordostrundingen, enquanto o ocidental localiza-se nas Aleutas. Já os extremos continentais (não insulares) são o cabo Príncipe de Gales, o extremo ocidental, no Alasca, e a ponta do Seixas, extremo oriental, no estado brasileiro da Paraíba.",
+      "quantity_country": 35,
+      "quantity_languages": 8,
+      "cover": "/images/continents/america/cover.png",
+      "cities": [
+        {
+          "id": "new_york",
+          "name": "Nova Iorque",
+          "image": "/images/continents/america/new_york.png",
+          "country": "Estados Unidos",
+          "code": "us"
+        },
+        {
+          "id": "miami",
+          "name": "Miami",
+          "image": "/images/continents/america/miami.png",
+          "country": "Estados Unidos",
+          "code": "us"
+        },
+        {
+          "id": "los_angeles",
+          "name": "Los Angeles",
+          "image": "/images/continents/america/los_angeles.png",
+          "country": "Estados Unidos",
+          "code": "us"
+        },
+        {
+          "id": "las_vegas",
+          "name": "Las Vegas",
+          "image": "/images/continents/america/las_vegas.png",
+          "country": "Estados Unidos",
+          "code": "us"
+        },
+        {
+          "id": "cancun",
+          "name": "Cancún",
+          "image": "/images/continents/america/cancun.png",
+          "country": "México",
+          "code": "us"
+        },
+        {
+          "id": "orlando",
+          "name": "Orlando",
+          "image": "/images/continents/america/orlando.png",
+          "country": "Estados Unidos",
+          "code": "us"
+        },
+        {
+          "id": "toronto",
+          "name": "Toronto",
+          "image": "/images/continents/america/toronto.png",
+          "country": "Canadá",
+          "code": "ca"
+        },
+        {
+          "id": "vancouver",
+          "name": "Vancouver",
+          "image": "/images/continents/america/vancouver.png",
+          "country": "Canadá",
+          "code": "ca"
+        },
+        {
+          "id": "san_francisco",
+          "name": "São Francisco",
+          "image": "/images/continents/america/san_francisco.png",
+          "country": "Estados Unidos",
+          "code": "us"
+        },
+        {
+          "id": "honolulu",
+          "name": "Honolulu",
+          "image": "/images/continents/america/honolulu.png",
+          "country": "Estados Unidos",
+          "code": "us"
+        },
+        {
+          "id": "buenos_aires",
+          "name": "Buenos Aires",
+          "image": "/images/continents/america/buenos_aires.png",
+          "country": "Argentina",
+          "code": "ar"
+        },
+        {
+          "id": "lima",
+          "name": "Lima",
+          "image": "/images/continents/america/lima.png",
+          "country": "Peru",
+          "code": "pe"
+        },
+        {
+          "id": "rio_de_janeiro",
+          "name": "Rio de Janeiro",
+          "image": "/images/continents/america/rio_de_janeiro.png",
+          "country": "Brasil",
+          "code": "br"
+        }
+      ]
+    }
+  ]
+}
