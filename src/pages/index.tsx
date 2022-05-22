@@ -16,7 +16,7 @@ interface HomeProps {
 
 export default function Home({ continents }: HomeProps) {
   return (
-    <Flex flexDir="column">
+    <Flex flexDir="column" overflow={"hidden"}>
       <Head>
         <title>WorldTrip | Home</title>
       </Head>

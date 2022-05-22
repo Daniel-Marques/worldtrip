@@ -1,4 +1,4 @@
-import { Flex, Heading } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 import { ContinentData } from "../../utils/types";
 
 interface CoverProps {
@@ -8,30 +8,28 @@ interface CoverProps {
 export function Cover({ continent }: CoverProps) {
   return (
     <Flex
-      as="section"
       w="100%"
-      h="500px"
+      h={["150px", "500px"]}
       bgImage={`url('${continent.banner}')`}
+      bgPosition={["center", "bottom"]}
+      bgRepeat="no-repeat"
       bgSize="cover"
-      justify="left"
-      align="flex-end"
     >
       <Flex
+        px={["136px", "140px"]}
+        py={["56px", "60px"]}
+        align="end"
         w="100%"
-        h="500px"
-        maxW={1160}
-        mx="auto"
-        justify="left"
-        align="flex-end"
+        h="100%"
       >
-        <Heading
-          color="gray.50"
+        <Text
+          fontSize={["1.75rem", "3rem"]}
           fontWeight="semibold"
-          fontSize="3rem"
-          mb="4rem"
+          textAlign="center"
+          color="white"
         >
           {continent.name}
-        </Heading>
+        </Text>
       </Flex>
     </Flex>
   );

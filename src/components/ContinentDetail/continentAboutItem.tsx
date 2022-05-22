@@ -1,25 +1,25 @@
-import { Text, VStack } from "@chakra-ui/react";
+import { Flex, Text, VStack } from "@chakra-ui/react";
 import { ReactElement } from "react";
+import { ContinentItemInfo } from "./continentItemInfo";
 
 interface ContinentAboutItemProps {
-  number: number;
-  label: string;
-  icon?: ReactElement;
+  countries: number;
+  languages: number;
+  starredCities: number;
 }
 
 export function ContinentAboutItem({
-  number,
-  label,
-  icon,
+  countries,
+  languages,
+  starredCities,
 }: ContinentAboutItemProps) {
   return (
-    <VStack spacing={-2} fontWeight="semibold">
-      <Text fontSize="3rem" color="yellow.500">
-        {number}
-      </Text>
-      <Text fontSize="1.5rem">
-        {label} {!!icon && icon}
-      </Text>
-    </VStack>
+    <Flex align="center" justify="space-between" w={["343px", "500px"]}>
+      <ContinentItemInfo quantity={countries}>países</ContinentItemInfo>
+      <ContinentItemInfo quantity={languages}>línguas</ContinentItemInfo>
+      <ContinentItemInfo quantity={starredCities} tooltip>
+        cidades +100
+      </ContinentItemInfo>
+    </Flex>
   );
 }

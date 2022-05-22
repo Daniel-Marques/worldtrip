@@ -27,7 +27,13 @@ export function SliderCTA({ continents }: SliderCTAProps) {
   return (
     <Flex as="section" direction="column" w="100%" align="center">
       <Flex direction="column" w="100%">
-        <Heading fontWeight="500" fontSize="3xl" textAlign="center" mb="14">
+        <Heading
+          lineHeight={["30px", "54px"]}
+          fontWeight="medium"
+          fontSize={["1.25rem", "2.25rem"]}
+          textAlign="center"
+          mb={["1.25rem", "50px"]}
+        >
           Vamos nessa? <br />
           Então escolha seu continente
         </Heading>

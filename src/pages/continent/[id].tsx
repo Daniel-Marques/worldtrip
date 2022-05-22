@@ -14,21 +14,20 @@ interface ContinentProps {
 
 export default function Continent({ continent }: ContinentProps) {
   return (
-    <Flex>
+    <>
       <Head>
         <title>{continent.name} | Home</title>
         <meta name="description" content={continent.description_long} />
         <meta name="image" content={continent.cover} />
       </Head>
 
-      <Flex maxW="100vw" minH="100vh" direction="column">
-        <Header />
+      <Header />
 
-        <Cover continent={continent} />
+      <Cover continent={continent} />
 
-        <Detail continent={continent} />
-      </Flex>
-    </Flex>
+      <Detail continent={continent} />
+      {/* </Flex> */}
+    </>
   );
 }
 

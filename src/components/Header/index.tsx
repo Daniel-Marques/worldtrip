@@ -3,17 +3,21 @@ import { IoIosArrowBack } from "react-icons/io";
 import { useRouter } from "next/router";
 
 export function Header() {
-  const router = useRouter();
   const { asPath } = useRouter();
 
   return (
-    <HStack w="100vw" h="100px" alignItems="center" justifyContent="center">
+    <HStack
+      w="100vw"
+      h={["50px", "100px"]}
+      alignItems="center"
+      justifyContent="center"
+    >
       {asPath != "/" && (
         <Link href="/">
           <IconButton
             aria-label="Voltar para a página inicial"
             icon={<Icon as={IoIosArrowBack} />}
-            fontSize="24"
+            fontSize={["18", "24"]}
             variant="unstyled"
             mr="2"
           />
@@ -24,6 +28,7 @@ export function Header() {
         <Image
           src="/images/icons/logo.svg"
           alt="Logo Worldtrip com um avião voando sobre a logo"
+          w={["81px", "184px"]}
         />
       </Flex>
     </HStack>
